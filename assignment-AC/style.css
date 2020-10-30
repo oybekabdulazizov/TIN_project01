@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+#ex2 {
+  font-size: 20px;
+  font-family: "Syne Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+#ex3 {
+  font-size: 20px;
+  font-family: "Cinzel", serif;
+}
+
+ul > li {
+  list-style-type: square;
+}
+
+table,
+th,
+td {
+  border-style: dotted solid dotted solid;
+  border-width: 2px;
+  border-color: gray;
+  font-family: "Indie Flower", cursive;
+}
