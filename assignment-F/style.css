@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c5c5c5' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#main-rectangle {
+  weight: 80%;
+  height: 100%;
+  margin: 10px 150px 0 150px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23cccccc' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#banner {
+  background: #ffffff;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 20px;
+  border-width: 1px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.article {
+  margin: 20px 15% 40px 15%;
+}
+
+.article-header {
+  font-size: 24px;
+  margin-left: 5px;
+  border-style: none none solid none;
+  border-color: gray;
+  border-width: 3px;
+  font-family: "Syne Mono", monospace;
+}
+
+.article-header p {
+  margin: 5px;
+}
+
+.article-text {
+  background-color: #d3e0e0;
+  margin-left: 15px;
+  margin-right: 10px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  padding: 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.lorem-text-link {
+  text-decoration: none;
+  color: #4e6182;
+}
+
+.lorem-text-link:hover {
+  color: #7d000c;
+}
+
+#note {
+  text-align: center;
+  margin: 0px 18% 5px 18%;
+  line-height: 1.5;
+}
+
+#footer {
+  weight: 100px;
+  margin: 10px 30% 5px 30%;
+  text-align: center;
+  border-style: solid none none none;
+  border-width: 2px;
+  border-color: gray;
+  padding-top: 10px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.footer-link:hover {
+  color: red;
+}
